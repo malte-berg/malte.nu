@@ -46,8 +46,7 @@ body {
 	margin-top: 0;
   	margin-bottom: 0;
     margin: 0;
-	background-color: #000;
-    background-image: var(--red-gradient);
+    background: var(--red-gradient);
 	background-size: 400%;
     color: #dbdbdb;
 	animation: bg-animation 15s infinite alternate;
