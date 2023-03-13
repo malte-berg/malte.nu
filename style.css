@@ -7,13 +7,13 @@
 	--email-color: rgb(159, 41, 255);
 	--purple-gradient: linear-gradient(
 		45deg, 
-		rgba(4, 0, 82,1), 
-		rgba(9,9,121,1), 
-		rgba(4,97,192,1), 
-		rgba(0,110,255,1), 
-		rgba(119,94,255,1), 
-		rgba(196,66,255,1),
-		rgba(77, 0, 113, 1)
+		rgb(4, 0, 82), 
+		rgb(9, 9, 121), 
+		rgb(4, 97, 192), 
+		rgb(0, 110, 255), 
+		rgb(119, 94, 255), 
+		rgb(196, 66, 255),
+		rgb(77, 0, 113)
 	);
 	--red-gradient: linear-gradient(
 		45deg,
