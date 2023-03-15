@@ -23,7 +23,8 @@
 		rgb(255, 175, 123)
 	);
 	--glow-light: rgba(255, 255, 255, 0.2);
-	--shadow-dark: rgba(0, 0, 0, 0.4);
+	--shadow-dark: rgba(0, 0, 0, 0.6);
+	--shadow-middle: rgba(0, 0, 0, 0.5);
 	--shadow-light: rgba(0, 0, 0, 0.1);
 	--button-padding: 15px;
 }
@@ -101,7 +102,7 @@ body {
 .person-info img {
 	max-width: 200px;
 	border-radius: 50%;
-    box-shadow: 0 0 10px var(--glow-light);
+    box-shadow: 0 0 10px var(--shadow-light);
 }
 
 .person-info a {
@@ -114,13 +115,15 @@ body {
 	border-radius: calc(var(--button-padding)*2);
 	margin: 10px 20px;
 	color: rgb(255, 255, 255);
+	opacity: 1;
 	text-decoration: none;
     background-color: var(--email-color);
     box-shadow: 0px 0px 10px var(--glow-light);
+	transition: opacity 0.3s ease-in-out;
 }
 
 .person-info a:hover {
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 .social-links {
