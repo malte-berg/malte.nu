@@ -49,11 +49,6 @@ html, body {
 }  
 
 body {
-	padding-top: 0;
-	overflow: hidden;
-	margin-top: 0;
-  	margin-bottom: 0;
-    margin: 0;
 	background-color: rgb(0, 0, 0);
     background-image: var(--red-gradient);
 	background-size: 400%;
