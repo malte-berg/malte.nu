@@ -120,6 +120,7 @@ body {
 	transition: background-color 0.3s ease, color 0.3s ease;
 	z-index: 1;
 	position: relative;
+	overflow: hidden;
 }
 
 .person-info a:hover {
@@ -151,13 +152,13 @@ body {
 	height: 100%;
 	border-radius: inherit;
 	z-index: -1;
-	transform: scale(0);
+	transform: scaleX(0);
 	transform-origin: right;
 	transition: transform 250ms ease-in;
 }
 
 .person-info a:hover::after {
-	transform: scale(1);
+	transform: scaleX(1);
 	transform-origin: left;
 }
 
