@@ -2,7 +2,7 @@
 	--instagram-color: rgb(192, 53, 132);
 	--facebook-color: rgb(24, 118, 242);
 	--twitter-color: rgb(28, 160, 242);
-	--steam-color: rgb(20, 71, 123);
+	--linkedin-color: rgb(0, 114, 177);
 	--github-color: rgb(24, 22, 22);
 	--email-color: rgb(159, 41, 255);
 	--purple-gradient: linear-gradient(
@@ -178,8 +178,8 @@ body {
 	background: var(--instagram-color);
 }
 
-.steam::after {
-	background: var(--steam-color);
+.linkedin::after {
+	background: var(--linkedin-color);
 }
 
 .github::after {
