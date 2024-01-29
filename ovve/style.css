@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+    font-family: Comic Sans MS;
+    background-image: url("/assets/bg.png");
+    color: violet;
+    background-color: bisque;
+}
+
+.places {
+    display: flex;
+    justify-content: center;
+}
+
+.kth {
+    margin: 0 50px;
+}
+
+.lth {
+    margin: 0 50px;
+}
